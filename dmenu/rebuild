@@ -1,0 +1,5 @@
+#!/bin/bash
+make
+rm config.h
+sudo make uninstall
+sudo make install
